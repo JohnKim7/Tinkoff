@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="4dp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMsg"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="none"
+            android:singleLine="false"
+            android:scrollHorizontally="false"
+            android:maxWidth="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@color/colorPrimary"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:text="Hello this is textview"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

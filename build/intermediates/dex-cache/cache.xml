@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/johnkim/Desktop/Projects/TinkoffChat/app/build/intermediates/incremental-classes/api16/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98abc9f043a300e88de0e9feeecdeced9670ed15">
+        <dex dex="/Users/johnkim/Desktop/Projects/TinkoffChat/app/build/intermediates/transforms/dex/api16/debug/folders/1000/10000/instant-run-bootstrap_9dbb49ebc4966d1e81b5fd45b5db44e415a497aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/johnkim/.gradle/caches/modules-2/files-2.1/com.github.Raizlabs.DBFlow/dbflow-core/4.0.0-beta7/7958c5dd6752329aeaa45d4c203ab8853c81be15/dbflow-core-4.0.0-beta7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7958c5dd6752329aeaa45d4c203ab8853c81be15">
+        <dex dex="/Users/johnkim/Desktop/Projects/TinkoffChat/app/build/intermediates/transforms/dex/api16/debug/folders/1000/10/dbflow-core-4.0.0-beta7_55ebdafd0188f30f4a0d94f0bb3b45d84ced5489/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/johnkim/Desktop/Projects/TinkoffChat/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/johnkim/Desktop/Projects/TinkoffChat/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a1336e9977d0d41552344d33ef8b922d3eb865b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/johnkim/.android/build-cache/1113ae6e05d00f5fd4134eab0f46b6c6134d56f5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f72f55a48bd7d09f1aff62212b629059d01da1ab">
+        <dex dex="/Users/johnkim/Desktop/Projects/TinkoffChat/app/build/intermediates/transforms/dex/api16/debug/folders/1000/10/classes_5a8318936cbc7eb08e31f9bc3370b01e1afb61c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/johnkim/Desktop/Projects/TinkoffChat/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b7654f8b5bcf24d6c88ef77ccbfc372897cc115">
+        <dex dex="/Users/johnkim/Desktop/Projects/TinkoffChat/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_707499e260f6b1efbb5e6bdb2e12c000802283bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/johnkim/Desktop/Projects/TinkoffChat/app/build/intermediates/incremental-runtime-classes/api16/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/johnkim/Desktop/Projects/TinkoffChat/app/build/intermediates/transforms/dex/api16/debug/folders/1000/10000/instant-run_c5c4e18d9951d58cf1f74975fbc3420cf7aad1d5/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_chat_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/container_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp">
+
+        <FrameLayout
+            android:id="@+id/container_edit_text_keyboard_emoticon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/container_img_btn_send_speak"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/container_img_btn_send_speak"
+            android:layout_toStartOf="@+id/container_img_btn_send_speak">
+
+            <com.rockerhieu.emojicon.EmojiconEditText
+                android:id="@+id/edt_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:background="@null"
+                android:inputType="textMultiLine" />
+
+            <ImageButton
+                android:id="@+id/img_btn_show_keyboard_or_emoticon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:background="@android:color/transparent"></ImageButton>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_img_btn_send_speak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="6dp">
+
+            <ImageButton
+                android:id="@+id/img_btn_send_speak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"></ImageButton>
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/container_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </FrameLayout>
+
+</LinearLayout>
